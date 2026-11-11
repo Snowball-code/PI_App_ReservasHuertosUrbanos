@@ -1,0 +1,33 @@
+id,corto,fase,inicio,fin,horas,predecesoras
+T01,Crear repositorio GitHub,F3,2026-11-02,2026-11-03,2,
+T02,Redactar el plan de ejecución,F3,2026-11-03,2026-11-07,7,T01
+T03,Elaborar el diagrama de Gantt,F3,2026-11-06,2026-11-07,2,T02
+T04,Vídeo y entrega de la Fase 3,F3,2026-11-07,2026-11-08,4,"T01,T02,T03"
+T05,Modelo de datos y script SQL,F4,2026-11-09,2026-11-13,6,T01
+T06,"Entorno local, PHP y hosting",F4,2026-11-12,2026-11-16,6,T01
+T07,Guía visual y prototipo,F4,2026-11-10,2026-11-17,7,
+T08,Documentos de seguimiento,F4,2026-11-16,2026-11-20,6,T02
+T09,Entrega de la Fase 4,F4,2026-11-19,2026-11-22,5,"T07,T08"
+T10,Autenticación y roles,EX,2026-11-23,2026-12-06,8,"T05,T06"
+T11,Maqueta HTML + Bootstrap,F5,2026-12-07,2026-12-11,6,T07
+T12,Estilos externos y multimedia,F5,2026-12-10,2026-12-13,4,T11
+T13,JS: calendario y validación,F5,2026-12-11,2026-12-17,10,T11
+T14,Integrar interfaz con roles,F5,2026-12-15,2026-12-18,4,"T10,T11"
+T15,Documento y vídeo de la Fase 5,F5,2026-12-17,2026-12-20,6,"T12,T13,T14"
+T16,Gestión de recursos (CRUD),F6,2026-12-21,2026-12-23,5,T10
+T17,Consulta de disponibilidad,F6,2026-12-24,2026-12-26,3,"T13,T16"
+T18,"Reservas (crear, modificar, cancelar)",F6,2026-12-26,2026-12-30,5,T17
+T19,Solapamientos y límite semanal,F6,2026-12-30,2027-01-04,6,T18
+T20,Solicitud de parcela y baremo,F6,2027-01-04,2027-01-06,6,"T10,T16"
+T21,Panel del coordinador,F6,2027-01-06,2027-01-09,5,T20
+T22,Documento y vídeo de la Fase 6,F6,2027-01-09,2027-01-10,3,"T19,T21"
+T23,Despliegue en InfinityFree,F7,2027-01-11,2027-01-14,5,"T19,T21,T06"
+T24,Pruebas de funcionamiento,F7,2027-01-14,2027-01-19,7,T23
+T25,Documentación técnica y Git,F7,2027-01-18,2027-01-20,3,T24
+T26,Transformación digital,F7,2027-01-18,2027-01-22,5,T02
+T27,Informe de sostenibilidad,F7,2027-01-20,2027-01-23,5,T02
+T28,Documento y vídeo de la Fase 7,F7,2027-01-22,2027-01-24,5,"T23,T24,T25,T26,T27"
+T29,Correcciones y pulido final,F8,2027-01-25,2027-01-31,10,T24
+T30,Documentos finales de seguimiento,F8,2027-01-28,2027-02-02,6,"T08,T29"
+T31,Documento y vídeo de la Fase 8,F8,2027-02-02,2027-02-04,4,"T29,T30"
+T32,Preparación de la exposición,F8,2027-02-03,2027-02-07,10,"T29,T30"
