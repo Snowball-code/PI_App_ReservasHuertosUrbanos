@@ -1,0 +1,7 @@
+config/config.php
+.env
+*.sql.bak
+backups/
+.DS_Store
+Thumbs.db
+.vscode/
