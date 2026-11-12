@@ -31,13 +31,13 @@ Fase 3 (planificación de la ejecución). Todavía no hay código de la aplicaci
 
 ## Documentación
 
-- [Plan de ejecución](docs/plan-de-ejecucion.md)
-- [Cronograma y diagrama de Gantt](docs/cronograma/README.md)
-- [Procedimiento de trabajo](docs/procedimiento-de-trabajo.md)
-- [Registro de riesgos](docs/riesgos.md)
-- [Decisiones](docs/decisiones.md)
-- [Seguimiento semanal](docs/seguimiento.md)
-- [Arquitectura preliminar](docs/tecnica/arquitectura.md)
+- [Plan de ejecución](repo_inicial/docs/plan-de-ejecucion.md)
+- [Cronograma y diagrama de Gantt](repo_inicial/docs/cronograma/README.md)
+- [Procedimiento de trabajo](repo_inicial/docs/procedimiento-de-trabajo.md)
+- [Registro de riesgos](repo_inicial/docs/riesgos.md)
+- [Decisiones](repo_inicial/docs/decisiones.md)
+- [Seguimiento semanal](repo_inicial/docs/seguimiento.md)
+- [Arquitectura preliminar](repo_inicial/docs/tecnica/arquitectura.md)
 
 ## Datos y seguridad
 
